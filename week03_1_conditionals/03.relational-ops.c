@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+// Relational operators
+// ==, !=, <, >, <=, >=
+
+
+int main()
+{
+	int a = 21;
+	int b = 10;
+	int c;
+
+	if (a == b)
+		printf("Sample 1 - a is equal to b\n");
+
+	if (a != b)
+		printf("Sample 1 - a is not equal to b\n");
+
+
+	if (a < b)
+		printf("Sample 2 - a is less than b\n");
+	else
+		printf("Sample 2 - a is not less than b\n");
+
+
+	if (a > b)
+		printf("Sample 3 - a is greater than b\n");
+	else
+		printf("Sample 3 - a is not greater than b\n");
+
+
+	/* Lets change value of a and b */
+	a = 5;
+	b = 20;
+
+	if (a <= b)
+		printf("Sample 4 - a is either less than or equal to  b\n");
+
+	if (b >= a)
+		printf("Sample 5 - b is either greater than  or equal to b\n");
+
+
+	return 0;
+}
